@@ -1,9 +1,7 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
 
 const AUTH_URL = import.meta.env.VITE_AUTH_ENDPOINT
 
-console.log(AUTH_URL)
 export default function Login() {
   const URL = `${AUTH_URL}?client_id=${
     import.meta.env.VITE_CLIENT_ID
